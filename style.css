@@ -89,11 +89,43 @@ img {
 .content {
     display: flex;
     flex-direction: row;
-    gap:30px;
+    gap:30px; 
 }
 
 .images-title {
     font-size: 36px;
     font-weight: 800;
+    padding: 20px;
+    align-self: center;
+}
+
+.quote, 
+
+.img-with-caption {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-with-caption > p {
+    text-align: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
     color: #1f2937;
+    font-weight:300px;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: 800;
 }
